@@ -1,0 +1,418 @@
+:root{
+    --green: #02aa31;
+    --black: #242948;
+    --gray:  #F4F4F4;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Axiforma" , Sans-serif;
+}
+
+#titleContainer{
+    background-color: var(--gray);
+    padding: 10px 20px;
+}
+#title{
+    padding: 100px 20px;
+}
+#title h1{
+    color: var(--green);
+    margin-bottom: 20px;
+    /* text-align: justify; */
+}
+#title p{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+#titleButtons{
+    margin-left: 20px;
+}
+#titleButtons button{
+    background-color: var(--green);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+#titleButtons button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#rideContainer{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    /* border: 1px solid var(--green); */
+    margin: 20px 20px;
+}
+#rideContainer #ride{
+    width: 50%;
+}
+#rideContainer #image{
+    width: 50%;
+}
+#rideContainer #image img{
+    width: 100%;
+    height: 100%;
+}
+#ride{
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+#ride h1{
+    color: var(--green);
+}
+#ride p{
+    line-height: 30px;
+    padding: 30px 0px 50px 0px;
+    text-align: justify;
+    font-size: 18px;
+}
+#ride button{
+    background-color: white;
+    padding: 10px 20px;
+    color: var(--green);
+    border-radius: 5px;
+    border: 2px solid var(--green);
+}
+#ride button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+
+#chooseUsContainer{   
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+#imagesPart{
+    width: 50%;
+}
+#imagesPart img{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+}
+#contentPart{
+    width: 50%;
+    padding: 0px 10px;
+}
+#text{
+    margin: 0px 10px;
+}
+#text p{
+    font-size: 18px;
+    margin: 20px 0px;
+    line-height: 30px;
+    text-align: justify;
+}
+#text h2{
+    margin: 20px 0px;
+}
+#imagesContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#imagesContainer .images{
+    width: 130px;
+    height:50px;
+    margin: 10px 10px;
+}
+#imagesContainer .images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.cardsContainer{
+    /* border: 1px solid black; */
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+}
+.cardsContainer .partOne{
+    width: 50%;
+    padding: 20px;
+}
+.cardsContainer .partTwo{
+    width: 50%;
+    padding: 20px;
+
+}
+.partOne .card{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+.partTwo .card{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+.card .imageBox{
+    height: 50%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card .imageBox img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card .textBox{
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+}
+.textBox h2{
+    margin-bottom: 10px;
+}
+.textBox p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.textBox button{
+    background-color: white;
+    border: 2px solid var(--green);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.textBox button a{
+    color: var(--green);
+    text-decoration: none;
+}
+
+
+#aboutBykeaContainer{
+    /* border: 1px solid black; */
+    margin: 20px 40px;
+    padding: 0px 20px;
+}
+#aboutBykeaContainer h1{
+    margin: 10px 0px;
+}
+#aboutBykeaContainer #groupPic{
+    height: 50%;
+    margin: 10px 0px;
+}
+#aboutBykeaContainer #groupPic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#aboutBykeaContainer p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+#aboutBykeaContainer button{
+    padding: 10px;
+    background-color: var(--black);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#aboutBykeaContainer button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* footer */
+
+footer{
+    /* border: 1px solid black; */
+    color: white;
+    background-color: var(--black);
+}
+#upperPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+#upperPart #footerPartOne{
+    width: 35%;
+    /* border: 1px solid white; */
+    margin: 30px 0px;
+    /* padding: 0px 10px; */
+}
+#footerPartOne #bykeaLogo{
+    width: 40%;
+    height: 50px;
+    /* border: 1px solid white; */
+    margin: 0px 10px 20px 10px;
+
+}
+#footerPartOne #bykeaLogo img{
+    width: 100%;
+    height: 100%;
+}
+#footerPartOne p{
+    margin: 10px 0px;
+    font-size: 15px;
+    margin-left: 10px;
+    /* border: 1px solid white; */
+
+}
+#footerPartOne #appsBox{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+
+}
+#footerPartOne #appsBox .apps{
+    width: 110px;
+    height: 50px;
+    margin: 10px;
+}
+#footerPartOne #appsBox .apps img{
+    width: 100%;
+    height: 100%;
+}
+
+#footerPartTwo{
+    /* border: 1px solid white; */
+    width: 20%;
+    margin: 30px 0px;
+    padding: 0px 10px;
+}
+#footerPartTwo h3{
+    margin-bottom: 20px;
+}
+#footerPartTwo li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#footerPartTwo li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer hr{
+    margin: 0px 10px;
+}
+footer #lowerPart{
+    /* border: 1px solid white; */
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#lowerPart #copyRight{
+    padding: 10px 10px;
+    /* border: 1px solid white; */
+
+}
+#lowerPart #copyRight p{
+    font-size: 15px;
+}
+#lowerPart #menus{
+    /* border: 1px solid white; */
+    padding: 10px 0px;
+}
+#lowerPart #menus ul{
+    display: flex;
+}
+#lowerPart #menus li{
+    list-style: none;
+    padding: 0px 10px;
+}
+#lowerPart #menus li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#lowerPart #icons{
+    padding: 10px 10px;
+    /* border: 1px solid white; */
+
+}
+
+
+/* footer end */
+
+/* mobile Screen */
+
+@media screen and (max-width:767px) {
+    #rideContainer #ride{
+        width: 100%;
+    }
+    #rideContainer #image{
+        width: 100%;
+    }
+    #imagesPart{
+        width: 100%;
+    }
+    #contentPart{
+        width:100%;
+    }
+    .cardsContainer .partOne{
+        width: 100%;
+    }
+    .cardsContainer .partTwo{
+        width: 100%;
+    }
+    #aboutBykeaContainer{
+        text-align: center;
+    }
+    #upperPart #footerPartOne{
+        width: 100%;
+    }
+    #upperPart #footerPartTwo{
+        width: 50%;
+    }
+    #lowerPart{
+        text-align: center;
+    }
+    #lowerPart #copyRight{
+        width: 100%;
+    }
+    #lowerPart #menus{
+        width: 100%;
+    }
+    #lowerPart #menus ul{
+        justify-content: center;
+    }
+    #lowerPart #icons{
+        width: 100%;
+    }
+}
+
+
+/* Tablets Screen */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #aboutBykeaContainer{
+        text-align: center;
+    }
+}
+
+/* laptop Screen */
+
+@media screen and (min-width:992px) and (max-width:1199px) {  
+}
+
+/* High Screen */
+
+@media screen and (min-width:1200px){  
+}
