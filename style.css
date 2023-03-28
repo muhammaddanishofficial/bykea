@@ -38,7 +38,7 @@ header{
     color: var(--green);
     font-size: 18px;
     font-weight: bold;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .nav-bar button{
     background-color: var(--green);
@@ -64,7 +64,7 @@ header{
     padding: 10px 20px;
 }
 #title{
-    padding: 100px 20px;
+    padding: 90px 20px;
 }
 #title h1{
     color: var(--green);
